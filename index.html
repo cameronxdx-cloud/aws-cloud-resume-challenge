@@ -28,7 +28,7 @@
 						<div class="content">
 							<div class="inner text-white">
 								<h1>Cameron Dilger</h1>
-								<p class="text-center font-ram font-size-27">I'm a <span id="typed"></span></p>
+								<p class="text-center font-ram font-size-27">I'm a Cloud Engineer aspiring  to be a <span id="typed"></span></p>
 								
 							</div>
 						</div>
@@ -212,6 +212,24 @@
 			<script src="assets/js/index.js"></script>
 			<script src="assets/js/typed.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+			
 
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ 
+<!-- Setup and start animation! -->
+<script>
+	var typed = new Typed('#typed', {
+		strings: [
+			'<em>Cloud<em/> <strong>Engineer</strong>',
+			'<em><strong>Cloud Architect</em>',
+			'<span class="border-red">DevOps</span> Engineer'
+		],
+		typeSpeed: 50,
+		backDelay: 1000,
+		backSpeed: 75,
+		loop: true
+	});
+</script>
 	</body>
 </html>
